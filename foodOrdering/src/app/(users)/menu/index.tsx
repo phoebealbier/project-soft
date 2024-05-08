@@ -8,7 +8,6 @@ import ProductListItem from '@components/ProductListItem';
 export default function MenueScreen() {
   return (
    
-   
    <FlatList
   data={products}
   renderItem={({ item }) => <ProductListItem product={item} />}
