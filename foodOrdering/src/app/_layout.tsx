@@ -59,7 +59,7 @@ function RootLayoutNav() {
     
     <CartProvider>
       <Stack>         
-       <Stack.Screen
+       <Stack.Screen 
                     name="(admin)"
                     options={{ headerShown: false }}
                   />
